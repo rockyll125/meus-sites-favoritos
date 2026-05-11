@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus sites favoritos</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #1e3a8a;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 15px;
+            width: 250px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .card a {
+            text-decoration: none;
+            color: #2563eb;
+            font-weight: bold;
+        }
+
+        .card a:hover {
+            color: #dc2626;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Título principal da página -->
+    <h1>Meus sites favoritos: Pedro Tomaz</h1>
+
+    <div class="container">
+
+        <!-- Site 1 -->
+        <div class="card">
+            <h2>YouTube</h2>
+            <a href="https://www.youtube.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube">
+            </a>
+            <p>
+                <a href="https://www.youtube.com" target="_blank">
+                    Acessar YouTube
+                </a>
+            </p>
+        </div>
+
+        <!-- Site 2 -->
+        <div class="card">
+            <h2>Google</h2>
+            <a href="https://www.google.com" target="_blank">
+                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google">
+            </a>
+            <p>
+                <a href="https://www.google.com" target="_blank">
+                    Acessar Google
+                </a>
+            </p>
+        </div>
+
+        <!-- Site 3 -->
+        <div class="card">
+            <h2>GitHub</h2>
+            <a href="https://github.com" target="_blank">
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
+            </a>
+            <p>
+                <a href="https://github.com" target="_blank">
+                    Acessar GitHub
+                </a>
+            </p>
+        </div>
+
+        <!-- Site 4 -->
+        <div class="card">
+            <h2>Netflix</h2>
+            <a href="https://www.netflix.com/br/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix">
+            </a>
+            <p>
+                <a href="https://www.netflix.com/br/" target="_blank">
+                    Acessar Netflix
+                </a>
+            </p>
+        </div>
+
+        <!-- Site 5 -->
+        <div class="card">
+            <h2>Spotify</h2>
+            <a href="https://open.spotify.com/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg" alt="Spotify">
+            </a>
+            <p>
+                <a href="https://open.spotify.com/" target="_blank">
+                    Acessar Spotify
+                </a>
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>
